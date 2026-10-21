@@ -28,7 +28,8 @@ public class StudentInformationSystem {
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
         System.out.println("Total Mark: " + totalMark);
-
+        System.out.println("Percentage: " + totalMark + "%");
+        
         // Display a result message
         if (totalMark >= 80) {
             System.out.println("Result: Excellent");
